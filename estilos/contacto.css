@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto Condensed';
+}
+ 
+
+/*
+.logo{
+    height: 80px;
+
+}
+
+.header{ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100% ;
+    background-color: rgb(255, 255, 255);
+}
+
+.navlinks{
+    display: flex;
+    margin-right: 15px;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+} 
+
+.links{ 
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-image: linear-gradient(rgb(96, 205, 255, 0.932), rgb(96, 205, 255, 0.932), rgba(96, 205, 255, 0.932));
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: left bottom;
+}
+.links:hover{
+    color: rgb(96, 205, 255, 0.932);
+    transform-origin: left bottom;
+    transition: 0.1s ease-in-out;
+    background-size: 100% 2px;
+} */
+
+
+
+
+.main{
+    min-height: 69.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+h1{ color: rgb(255, 174, 0);
+    margin-bottom: 10px;
+}
+
+p{  text-align: left; 
+   
+    margin: 15px;
+    font-weight: 400;
+}
+
+.formulario{ margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 40px 40px;
+    box-shadow: 0 0 20px rgb(255, 174, 0);
+    border-radius: 15px;
+    text-align: center;
+    width: 340px;
+}
+
+.contenedor_formulario{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+
+}
+
+
+.contenedor_botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones{
+    padding: 8px 25px;
+    margin-top: 15px;
+    margin-bottom: -6px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    box-shadow: 0 0 5px 2px rgb(255, 174, 0);
+    background-color: aliceblue;
+    color: black;
+    
+    
+}
+
+.botones:hover{
+
+    background-color: rgb(255, 183, 27);
+
+}
+
+.inputs_formulario,textarea {
+    border: 0;
+    background-color: rgb(255, 183, 27);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+input,textarea:focus{
+    outline: none;
+
+}
+
+::placeholder{ color: black;
+font-size: 15px; }
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.links_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+
+}
+
+.links_contacto{
+    color: aliceblue;
+    text-decoration: none;
+    background-image: linear-gradient(aliceblue, rgb(136, 136, 136), rgba(68, 68, 68, 0.849));
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: left bottom;
+}
+
+.links_contacto:hover{
+    color: rgb(187, 187, 187);
+    transform-origin: left bottom;
+    transition: 0.2s ease-in-out;
+    background-size: 100% 2px;
+} */ 
+
