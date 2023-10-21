@@ -45,6 +45,14 @@
 
 /* ---------------------------------------------- MAIN -------------------------------*/
 
+
+
+#phone_carousel{ 
+    display: none;
+}
+
+
+
 #carousel-slide{ 
     transition: transform .6s ease, opacity .3s ease-out;
     transition-duration: .6s;
@@ -93,3 +101,80 @@
     background-size: 100% 2px;
 }
 
+/* ------------------------- MEDIA --------------------------- */
+
+@media (max-width:680px) {
+
+#desk_carousel{
+    display: none;
+}
+
+
+h2{ text-align: center;
+    padding-top: 5px;  
+    border-bottom-style: solid;
+    border-color: rgb(253, 202, 90);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;  
+}
+
+#phone_carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+}
+
+.footer{ 
+      position: relative;
+      bottom: 0;
+}
+
+
+.phone_item{height: 100%;
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    scroll-snap-align: center;
+
+}
+
+.phone_link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.car{ 
+    display: flex;
+   aspect-ratio: 13/9;
+    width: 100vw;
+    position: relative;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    
+}
+.suv{
+    display: flex;
+    aspect-ratio: 13/8;
+    width: 100vw;
+    position: relative;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    
+}
+.pick_up{
+   
+    margin-bottom: 15px;
+    display: flex;
+    aspect-ratio: 13/9;
+    width: 100vw;
+    position: relative;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    
+}
+
+}
