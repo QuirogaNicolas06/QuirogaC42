@@ -37,7 +37,7 @@
     background-position: left bottom;
 }
 .links:hover{
-    color: rgb(255, 207, 103);
+    color: rgb(250, 202, 99);
     transform-origin: left bottom;
     transition: 0.2s ease-in-out;
     background-size: 100% 2px;
