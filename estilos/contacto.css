@@ -118,12 +118,6 @@ transition-duration: 0.5 ;
 }
 
 
-/*.botones:hover{
-   
-    transition-duration: 0.3s;
-    background-color: rgb(255, 183, 27);
-
-} */
 
 .inputs_formulario,textarea {
     border: 0;
