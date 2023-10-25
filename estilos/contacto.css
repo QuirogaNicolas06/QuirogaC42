@@ -57,9 +57,9 @@ h1{ color: rgb(255, 174, 0);
     margin-bottom: 10px;
 }
 
-p{  text-align: left; 
-   
-    margin: 15px;
+p{  text-align: center; 
+    font-size: 1.2rem;
+    margin-bottom: 20px;
     font-weight: 400;
 }
 
@@ -90,30 +90,40 @@ img{ margin-left: -20px;
 
 .contenedor_botones{
     display: flex;
-    justify-content: space-between;
+    gap: 2.5rem;
+    margin-left: 30px;
     align-items: center;
 }
 
+
+
 .botones{
-    padding: 8px 25px;
-    margin-top: 15px;
-    margin-bottom: -6px;
-    border-radius: 8px;
-    font-size: 15px;
-    font-weight: 400;
+    color: #000000; 
+    margin-top: 15px; 
     border: none;
-    box-shadow: 0 0 5px 2px rgb(255, 174, 0);
-    background-color: aliceblue;
-    color: black;
-    
-    
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 15px 36px;
+    display: inline-block;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(255, 183, 27);
+    transition: ease-in-out 0.3s;
 }
 
-.botones:hover{
+.botones:hover {
+box-shadow: inset 400px 0 0 0 rgb(255, 183, 27);
+transition-duration: 0.5 ;
+}
 
+
+/*.botones:hover{
+   
+    transition-duration: 0.3s;
     background-color: rgb(255, 183, 27);
 
-}
+} */
 
 .inputs_formulario,textarea {
     border: 0;
