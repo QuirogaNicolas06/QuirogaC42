@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Home </title>
+    <title> Chevrolet - Home </title>
     <link rel="icon" href="Imagenes/chevrolet_logo_icon_145836.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,22 +13,20 @@
 </head>
 <body>
     
-    <header class="header">
-        
-        <a class="link_logo" href="#">
-            <img class="logo" src="Imagenes/Logo negro.jpg" alt="logo chevrolet">
-        </a>
-        <nav>
-           <ul class="navlinks">
-             <li><a class="links" target="_blank" href="Paginas/Vehiculos.html">Vehiculos</a></li>
-             <li><a class="links" href="#">Nosotros</a></li>
-             <li><a class="links" target="_blank" href="Paginas/Contacto.html">Contacto</a></li>
-            </ul>
-          </nav>
+    <header class="header"> 
+    <a class="link_logo" href="index.html">
+      <img class="logo" src="Imagenes/Logo negro.jpg" alt="logo chevrolet">
+    </a>
+      <nav>
+        <ul style="padding-left: 0;" class="navlinks">
+          <li><a class="links" href="#">Nosotros</a></li>
+          <li><a class="links" target="_blank" href="Paginas/Contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
         
-        
-    <main class="phone_main">
+  <main>    
+    <section class="phone_main">
 
       <section id="phone_carousel">
         <a class="phone_link" href="#"> <h2> Autos </h2> </a>
@@ -53,13 +51,8 @@
         </div>
 
       </section>
-
-    </main>  
-        
-        
-        
-        
-    <main class="desk_main">
+    </section>    
+    <section class="desk_main">
       
       <section id="desk_carousel">
         <div id="carouselExampleCaptions" class="carousel slide">
@@ -97,19 +90,137 @@
                 </div>
               </a>
             </div>
-          </div>
+        </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <h1> Recomendaciones </h1>
+    
+    <section class="recomendaciones">
+      
+      <div class="reco">
+          <h2>¡Auto recomendado!</h2>
+          <img class="reco_imagen" src="Imagenes/cruze rs.jpg" alt="chevrolet cruze rs"> 
+          <span class="nombre">Chevrolet Cruze RS</span>
+      </div>
+        
+      <div class="reco">
+        <h2>¡Suv recomendada!</h2>
+          <img class="reco_imagen" src="Imagenes/tracker rs.jpg" alt="chevrolet tracker rs">
+          <span class="nombre">Chevrolet Tracker RS</span>
+      </div>
+      
+      <div class="reco">
+          <h2>¡Pick up recomendada!</h2>
+          <img class="reco_imagen" src="Imagenes/Z71.jpg" alt="chevrolet z71">
+          <span class="nombre">Chevrolet Z71</span>      
+
       </div>
     </section>
+
+
+    
+    <div class="contenedor_boton">
+      <button type="button" onclick="mostrar();" class="boton_mostrar" id="botonVer"> <h4> Ver todos </h4> </button>
+    </div>
+    <section class="container_autos" id="autos" style="display: none;">
+      
+        <div class="tarjetas_autos">
+            <img class="autos" src="../Imagenes/cruze rs.jpg" alt="cruze rs">
+                <div class="info">
+                    <h3 class="nombres">Chevrolet Cruze RS</h3>
+                    <h3> Desde $15.316.900 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quo at eos dictamus repellendus quam odit, pariatur ipsum tempora?</p>
+                </div>
+            <a class="mas_info" href="#"> + Info </a>
+        </div>
+        <div class="tarjetas_autos">
+            <img class="autos" src="../Imagenes/joy.jpg" alt="joy hb">
+                <div class="info">
+                    <h3 class="nombres">Chevrolet Joy</h3>
+                    <h3> Desde $7.975.900 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quo at eos dictamus repellendus quam odit, pariatur ipsum tempora?</p>
+                </div>
+            <a class="mas_info" href="#"> + Info </a>
+        </div>
+        <div class="tarjetas_autos">
+            <img class="autos" src="../Imagenes/equinox.jpg" alt="equinox">
+                <div class="info">
+                    <h3 class="nombres">Chevrolet equinox</h3>
+                    <h3> Desde $21.672.900 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quo at eos dictaarum possimus repellendus quam odit, pariatur ipsum tempora?</p>
+                </div>
+            <a class="mas_info" href="#"> + Info </a>
+        </div>
+        <div class="tarjetas_autos">
+            <img class="autos" src="../Imagenes/onix.jpg" alt="onix">
+                <div class="info">
+                    <h3 class="nombres">Chevrolet Onix</h3>
+                    <h3> Desde $8.571.900 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Porro quo at 
+                      eos dicta, debitis veritatis esse fugiat recusandae nulla magni pariatur ipsum tempora?</p>
+                </div>
+            <a class="mas_info" href="#"> + Info </a>
+        </div>
+        <div class="tarjetas_autos"> 
+            <img class="autos" src="../Imagenes/chevrolet-tracker-2020-dinamica.jpg" alt="tracker">
+                <div class="info">
+                    <h3 class="nombres">Chevrolet Nueva Tracker</h3>
+                    <h3> Desde $9.429.900 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quo at eos dicta repellendus quam odit, pariatur ipsum tempora?</p>
+                </div>
+            <a class="mas_info" href="#"> + Info </a>
+        </div>
+        <div class="tarjetas_autos">   
+            <img class="autos" src="../Imagenes/nueva montana.jpg" alt="nueva montana">
+                <div class="info">
+                    <h3 class="nombres">Chevrolet Nueva Montana</h3>
+                    <h3> Desde $16.867.900 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quo at eos m possimus repellendus quam odit, pariatur ipsum tempora?</p>
+                </div>
+            <a class="mas_info" href="#"> + Info </a>
+        </div>
+        <div class="tarjetas_autos">
+            <img class="autos" src="../Imagenes/S10 HC.jpg" alt="s10 hc">
+                <div class="info">
+                    <h3 class="nombres">Chevrolet S10 High Country</h3>
+                    <h3> Desde $26.498.900 </h3>
+                    <p>Lorem ipsum debitis veritatis esse fugiat recusandae nulla magni, officia veniam harum possimus repellendus quam odit, pariatur ipsum tempora?</p>
+                </div>
+            <a class="mas_info" href="#"> + Info </a>
+        </div>
+        <div class="tarjetas_autos">
+            <img class="autos" src="../Imagenes/tracker rs.jpg" alt="tracker rs">
+                <div class="info">
+                    <h3 class="nombres">Chevrolet Tracker RS </h3>
+                    <h3> Proximamente </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quo at eos dicta, darum possimus repellendus quam odit, pariatur ipsum tempora?</p>
+                </div>
+            <a class="mas_info" href="#"> + Info </a>
+        </div>
+        <div class="tarjetas_autos">
+          <img class="autos" src="../Imagenes/trailblazer.jpg" alt="trailblazer">
+              <div class="info">
+                  <h3 class="nombres">Chevrolet Trailblazer</h3>
+                  <h3> Desde $21.672.900 </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quo at eos pellendus quam odit, pariatur ipsum tempora?</p>
+              </div>
+          <a class="mas_info" href="#"> + Info </a>
+        </div>
+        
+          <div class="contenedor_boton_ocultar"><button id="ocultar" class="boton_ocultar" onclick="ocultar();"><h4> Ocultar </h4></button></div>
+        
   </main>
-  
   
   
   
@@ -118,14 +229,62 @@
   
   <footer class="footer">
     
-    <ul class="links_footer">
-      <li><a class="links_contacto" href="#">Whatsapp</a></li>
-      <li><a class="links_contacto" href="#">Instagram</a></li>
-      <li><a class="links_contacto" href="#">Facebook</a></li>
-        </ul>
-    </footer>
+      <section class="links_container">
+        <div class="footer_links">
+          <h2> Comprar </h2>
+          <ul style="padding-left: 0;">
+            <li> <a href="#"> Solicitar cotización </a> </li>
+            <li> <a href="#"> Encontrá un concesionario </a> </li>
+            <li> <a href="#"> Ventas Corporativas </a> </li>
+            <li> <a href="#"> Plan Chevrolet</a> </li>
+            <li> <a href="#"> Financiamiento GPAT</a> </li>      
+          </ul>
+        
+        </div>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+          <div class="footer_links">
+            <h2> Servicios </h2>
+            <ul style="padding-left: 0;">
+              <li> <a href="#"> Servicio Personalizado </a> </li>
+              <li> <a href="#"> Garantía </a> </li>
+              <li> <a href="#"> Manual de Propietarios </a> </li>
+              <li> <a href="#"> OnStar </a> </li>
+              <li> <a href="#"> Asistencia de ruta </a> </li>
+            </ul>
+          </div>
+
+            <div class="footer_links">
+                
+                <h2> Mundo Chevrolet </h2>
+                
+                <ul style="padding-left: 0;">
+                    <li> <a href="#"> Por qué nosotros </a> </li>
+                    <li> <a href="#"> Nuestra Planta </a> </li>
+                    <li> <a href="#"> Contacto </a> </li>
+                    <li> <a href="#"> Politicas de privacidad</a> </li>
+                    
+                </ul>
+        
+            </div>
+
+            <div class="footer_links">
+                
+                <h2> Seguinos </h2>
+                    <div class="social_links">
+                        <a href="#"> <img src="Iconos/whats.png" alt="Whatsapp"> </a>
+                        <a href="#"> <img src="Iconos/insta.png" alt="Instagram"> </a>
+                        <a href="#"> <img src="Iconos/face.png" alt="Facebook"> </a>
+                        <a href="#"> <img src="Iconos/youtube.png" alt="Youtube"> </a>
+                    </div>
+        
+            </div>
+        
+        </section>
+
+</footer>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="home.js"></script>
 </body>
 </html>

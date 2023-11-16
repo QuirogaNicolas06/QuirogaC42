@@ -46,9 +46,7 @@
 /* ---------------------------------------- MAIN ---------------------------------------------- */
 
 .container_autos{
-    display: grid;
-    align-items: stretch;
-    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) ) ;
+    display: flex;
     margin: 10px;
     gap: 10px;
 
@@ -70,10 +68,10 @@
 }
 
 .mas_info{ background-color: aliceblue; 
-    text-align: center;
+    display: inline-block;
     text-decoration: none;
     color: black;
-    width: 40px;
+    width: 50px;
     margin-top: 10px;
     padding: 2px;
     border-radius: 5px;
